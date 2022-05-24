@@ -203,5 +203,5 @@ def getSmor(ppp):
     pol = []
     for i in range(0, len(ess)):
         pol.append((ess[i], alt[i]))
-    return([ess],[alt])
+    return(ess,alt)
 
