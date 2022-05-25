@@ -1,6 +1,4 @@
 import matplotlib.pyplot as plt
-from shapely.geometry import Polygon
-import pickle
 
 nv = 100
 def getEs(esb,esa,na): 
