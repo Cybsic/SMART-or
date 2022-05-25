@@ -6,19 +6,19 @@ co=[]
 ed=[]
 
 for i in range(0, 2):
-    a=float(input('Inserire estremi sinistri '))
+    a=float(input('Insert left extremes  '))
     es.append(a)
 for i in range(0,2):
-    a=float(input('Inserire core '))
+    a=float(input('Insert cores '))
     co.append(a)
 for i in range(0,2):
-    a=float(input('Inserire estremi destri '))
+    a=float(input('Insert right extremes '))
     ed.append(a)
 for i in range(0,2):
     if es[i]>co[i] or co[i]>ed[i]:
-        print('ATTENZIONE: Valori errati')
+        print('Attention: Wrong values')
         exit()
-nv=int(input('Quanti livelli vuoi calcolare? '))
+nv=int(input('How many levels do you want to compute? '))
 nv=nv-1
 a=[]
 b=[]
