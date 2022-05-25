@@ -205,3 +205,9 @@ def getSmor(ppp):
         pol.append((ess[i], alt[i]))
     return(ess,alt)
 
+list = [] #in this list we need to insert the lists of vertices of polygonal functions
+num = len(list)
+results = getSmor(list)
+print(results) #it will return a list with the vector of x-coordinates and a list of y-coordinates of the Fuzzy number obtained through the SMART-or
+plt.plot(results) #to represent the Fuzzy number
+plt.show()
